@@ -1,0 +1,108 @@
+/*Sevenscript <http://sevenscript.net> - Copyright (c) 2010 <info@sevenscript.net>*/
+.tableBorder{
+	width: 100%;
+}
+.ajaxTable {
+	width: 100%;	
+}
+.ajaxTable td
+{
+	font-size: 12px;
+	border-color: #D0D8DD;
+	border-style: solid;
+	padding: 4px;
+	border-width: 1px 0px 0px 0px;
+	vertical-align: middle;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.newRowBtn {
+	margin-top: -19px;
+	margin-right: 10px;
+	text-align: right;
+}
+.tdHover {
+	background:#FCFF9D url(../images/edit.gif) no-repeat center left;
+}
+.ajaxTable tfoot
+{
+   background: #e5e5e5;
+   font-style: italic;
+}
+
+.ajaxTable th
+{
+	padding-top: 10px;
+	padding-left: 25px;
+	height: 41px;
+	text-align:left;
+	background: url(../images/header2_blue.gif) repeat-x;
+}
+
+.ajaxTable th a {
+	color: #007bab;
+	text-decoration: none;
+}
+
+.ajaxTable {
+	background: #FFF;
+}
+
+.tdOdd {
+	background-color: #FFF;
+}
+.tdEven {
+	background-color: #f3f3f3;
+}
+
+tr.hovered {
+}
+.ajaxTable tr:hover {
+}
+
+.edit_input {
+	border: 2px solid #75d2e7;
+	font-size: 12px;
+	width: 100%;
+}
+
+.edit_save {
+	float: right;
+	font-size:10px;
+}
+
+.cell_opts {
+	float: right;
+}
+.cell_opts a {
+	font-size:10px;
+}
+
+.table_msg {
+	background-color: #ffffdd;
+	border: 1px solid #eeee99;
+	display: block;
+	margin: 20px;
+	padding: 15px;
+	font-size: 140%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.dbList li {
+}
+.dbList a {
+	display: block;
+	padding: 3px;
+}
+.dbList a:hover {
+	background-color: #333;
+}
+.dbList_active {
+	background-color: white;
+}
+
+tfoot {
+	text-align: center;
+}

@@ -1,0 +1,122 @@
+<!-- Begin MailChimp Signup Form -->
+
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+  #mc_embed_signup {
+    clear: left;
+    font-family: 'Lato', sans-serif;
+    background-color: #415689 !important;
+  }
+  
+  #mc_embed_signup form {
+    text-align: center !important;
+  }
+  
+  #mc_embed_signup input.email {
+    display: inline-block !important;
+    text-indent: 10px !important;
+    border: 1px solid #ccc !important;
+    min-width: 320px !important;
+    margin-top: 10px !important;
+  }
+  
+  #mce-EMAIL {
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    padding-left: 5px;
+  }
+  
+  #mc-embedded-subscribe {
+    border-color: #ffc708;
+  }
+  
+  #mc-embedded-subscribe:hover {
+    background-color: #ffffff;
+    color: #456189;
+  }
+</style>
+
+<script>
+  $(document).ready(function () {
+    // I only have one form on the page but you can be more specific if need be.
+    var $form = $('form');
+
+    if ($form.length > 0) {
+      $('form input[type="submit"]').bind('click', function (event) {
+        if (event) event.preventDefault();
+        // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
+        //if (validate_input($form)) {
+        register($form);
+        //}
+      });
+    }
+  });
+
+  function register($form) {
+    $.ajax({
+      type: $form.attr('method'),
+      url: $form.attr('action'),
+      data: $form.serialize(),
+      cache: false,
+      dataType: 'json',
+      contentType: "application/json; charset=utf-8",
+      error: function (err) {
+        alert("Could not connect to the registration server. Please try again later.");
+      },
+      success: function (data) {
+        if (data.result != "success") {
+          $('#get-notified-error').slideDown('slow');
+          $('#get-notified-error span').html(data.msg);
+          setTimeout(function () {
+            $('#get-notified-error').slideUp('slow');
+          }, 6000);
+        } else {
+          $('#get-notified-success').slideDown('slow');
+          $('#get-notified-success span').html(data.msg);
+          setTimeout(function () {
+            $('#get-notified-success').slideUp('slow');
+          }, 6000);
+        }
+      }
+    });
+  }
+</script>
+
+<div class="container">
+  <div class="row text-center">
+
+    <div class="col-md-12 text-center">
+
+      <div class="spacer-60"></div>
+      <h3 class="h4">Sign up for updates</h3>
+      <p class="lead">The latest and greatest sent to your inbox</p>
+
+      <div class="alert alert-success alert-small" id="get-notified-success" style="display: none;"><span></span>
+      </div>
+      <div class="alert alert-danger alert-small" id="get-notified-error" style="display: none;"><span></span>
+      </div>
+
+      <div id="mc_embed_signup">
+        <form action="//eastern-foundry.us10.list-manage.com/subscribe/post-json?u=b10c79d6ace6a082b81558a5d&amp;id=b11519f756&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;">
+              <input type="text" name="b_b10c79d6ace6a082b81558a5d_b11519f756" tabindex="-1" value="">
+            </div>
+            <div class="spacer-15"></div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-md btn-yellow-line">
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="spacer-60"></div>
+
+
+<!-- End MailChimp Signup Form -->

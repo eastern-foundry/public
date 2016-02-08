@@ -1,0 +1,139 @@
+/*Sevenscript <http://sevenscript.net> - Copyright (c) 2010 <info@sevenscript.net>*/
+body {
+	font-family: Helvetica Neue,"Arial",Helvetica,Verdana,sans-serif;
+	background: #383838;
+}
+
+a {
+	color: #1b75bb;
+}
+
+p {
+	padding: 5px;
+}
+
+.pageTitle {
+	color: #FFF;
+	font-size: 48px;
+	margin: 10px 0 0 30px;
+	background-color: #333333;
+	padding: 20px;
+}
+.subTitle {
+	color: #777777;
+	line-height:1;
+}
+
+.ajaxTableHeader {
+	background: transparent url(../images/header1_blue.gif) repeat-x top right;
+	width: 100%;
+	margin-bottom: 0px;
+	height: 60px;
+	color: #333;
+}
+.ajaxTableHeader h1 {
+	background: transparent url(../images/table-header.jpg) no-repeat;
+	height: 40px;
+	padding: 0px 0 0 20px;
+	float: left;
+	font-size: 140%;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+#container {
+	margin: 50px;
+}
+#ajax_loading_div {
+	float: right;
+	width: 30px;
+	padding-top: 5px;
+}
+
+ul {
+	margin: 0 0 0 20px;
+	list-style-type: square;
+}
+
+.tableSearch_input {
+	float: right;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	background:#FFFFFF none repeat scroll 0 0;
+	border:5px solid #e5f0ff;
+	font-size:18px;
+	height:22px;
+	*height: 38px;
+	padding:4px 5px;
+	margin: 10px;
+}
+
+.pagination {
+	background: #4e4e4e url(../images/tbl_footer_bg.png) repeat-x;
+	height: 31px;
+	padding-top: 7px;
+	text-align: center;
+}
+
+.pagination a {
+	font-size: 80%;
+	border: 0px solid #c7c7c7;
+	margin: 2px;
+	padding: 2px;
+	text-decoration: none;
+}
+.pagination a:hover {
+	color: #FFF;
+	background: url(../images/pagi_bg_selected.png);
+}
+
+.paginationSelected {
+	color: #FFF;
+	background: url(../images/pagi_bg_selected.png);
+}
+
+.paginationNotSelected {
+	color: #535353;
+}
+
+.blurb_left {
+	font-size: 80%;
+	margin: 0 0 0 50px;
+	width: 40%;
+	float: left;
+}
+.blurb_right {
+	margin: 0 0 0 10%;
+	width: 40%;
+	float: left;
+}
+
+.tableBorder {
+}
+.page_title {
+	color: white;
+	padding: 10px;
+	font-size: 120%;
+}
+
+a.remove_button {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(../images/bg_remove.gif) no-repeat scroll right top;
+}
+a.remove_button {
+	color:#5D5D5D;
+	font-size:11px;
+	font-weight:bold;
+	margin-right:8px;
+	padding:1px 21px 1px 6px;
+	text-transform:uppercase;
+}
+
+:focus {
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:0;
+}
