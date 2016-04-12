@@ -111,10 +111,10 @@
 .navigation > ul > li.active > a {
     color: #ffc708;
 }
-/*.navigation > ul > li.nav-has-sub > a {
+ .navigation > ul > li.nav-has-sub > a {
   padding-right: 25px;
-}*/
-/*.navigation > ul > li.nav-has-sub > a::after {
+}
+ .navigation > ul > li.nav-has-sub > a::after {
   position: absolute;
   top: 21px;
   right: 10px;
@@ -133,7 +133,7 @@
   -ms-transition: border-color 0.2s ease;
   -o-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
-}*/
+}
 .navigation > ul > li.nav-has-sub:hover > a::after {
     border-color: #ffc708;
 }
@@ -185,17 +185,17 @@
     margin-left: 0;
     margin-right: 100%;
 }
-/*.navigation ul ul li {
+.navigation ul ul li {
   height: 0;
   -webkit-transition: height .2s ease;
   -moz-transition: height .2s ease;
   -ms-transition: height .2s ease;
   -o-transition: height .2s ease;
   transition: height .2s ease;
-}*/
-/*.navigation ul li:hover > ul > li {
+}
+.navigation ul li:hover > ul > li {
   height: 32px;
-}*/
+}
 .navigation ul ul li a {
     padding: 10px 20px;
     width: 225px;
@@ -376,7 +376,7 @@
         float:left;
     }
 
-    /*.navigation #menu-button::after {
+        .navigation #menu-button::after {
             content: '';
             position: absolute;
             top: 20px;
@@ -397,7 +397,7 @@
             height: 3px;
             border-top: 2px solid #000000;
             border-bottom: 2px solid #000000;
-        }*/
+        }
 
     .navigation .submenu-button {
         position: absolute;
