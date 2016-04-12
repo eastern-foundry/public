@@ -72,7 +72,7 @@
           <div class="full-cap-wraper overlay-dark80 light-color">
             <div class="content-caption light-color">
               <div class="spacer-60"></div>
-              <h1 class="h1">Industry events</h1>
+              <h1 class="h1">Industry Events</h1>
               <div class="spacer-15"></div>
               <p class="lead">Follow and register industry events throughout the DC area.</p>
               <div class="spacer-30"></div>
@@ -90,69 +90,9 @@
 
     <hr />
 
-    <div data-tockify-component="calendar" data-tockify-calendar="eastern.foundry"></div>
-    <script data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+   <div data-tockify-component="calendar" data-tockify-calendar="industry"></div>
+   <script data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
     
-    <!-- Events -->
-    <!--
-    <section class="ptb ptb-sm-80">
-      <div class="container">
-        <div class="row container-grid">
-
-          <div class="col-md-4 col-sm-6 col-xs-12 nf-item spacing-grid">
-            <div class="blog-post">
-              <div class="post-media">
-                <img class="item-container" src="/img/full/28.jpg" alt="1" />
-              </div>
-              <div class="post-meta">TBD</span>
-              </div>
-              <div class="post-header">
-                <h5>The TALOS "Ironman" exoskeleton suit.</h5>
-              </div>
-              <div class="post-entry">
-                <p>The TALOS suit, or Tactical Assault Light Operator Suit, is a full body exoskeleton with advanced ballistic protection that augments the human operator’s situational awareness, resiliency, and strength. SOCOM has invested over $80 million into this project, and has maintained that the suit would save countless lives and have an immediate benefit to each branch of the military. The December Foundry Cup will focus on each of the suit’s enhancements and encourage collaboration and innovation between the finalists.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-sm-6 col-xs-12 nf-item spacing-grid">
-            <div class="blog-post">
-              <div class="post-media">
-                <img class="item-container" src="/img/full/26.jpg" alt="1" />
-              </div>
-              <div class="post-meta">TBD</span>
-              </div>
-              <div class="post-header">
-                <h5>ITES-3 Industry Day</h5>
-              </div>
-              <div class="post-entry">
-                <p>This is more than a government opportunity ‘speed dating’ event in which your organization randomly talks with Primes. Eastern Foundry will map your organizations socioeconomic status and core capabilities to those of interested Primes; and then facilitates an introduction to the ones you have the most opportunity to work with. All in four hours.</p>
-              </div>
-            </div>
-          </div>     
-      
-          <div class="col-md-6 col-sm-6 col-xs-12 nf-item spacing-grid">
-            <div class="blog-post">
-              <div class="post-media">
-                <img class="item-container" src="/img/full/27.jpg" alt="1" />
-              </div>
-              <div class="post-meta">October 16, 2015</span>
-              </div>
-              <div class="post-header">
-                <h5>Academy Training</h5>
-              </div>
-              <div class="post-entry">
-                <p>This boot camp begins with a two-day Basic Training for professionals and early stage businesses that takes you through registration and provides an overview of the market, follow by a two-day Advanced Course focusing on business development, proposal writing, project management and compliance issues.</p>
-              </div>
-            </div>
-          </div>      
-
-        </div>
-      </div>
-    </section>
-    -->
-    <!-- End Events -->
-
   </div>
   <!-- End Site Wraper -->
 
