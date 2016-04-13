@@ -399,40 +399,44 @@
             border-bottom: 2px solid #000000;
         }
 
-    .navigation #submenu-button {
-        position: absolute;
-        z-index: 10;
-        right: 0;
-        top: 0;
-        display: block;
-        border-left: 1px solid #eee;
-        height: 52px;
-        width: 52px;
-        cursor: pointer;
+    #submenu-button {
+        display: none;
     }
 
-        .navigation #submenu-button::after {
-            content: '';
+        .navigation #submenu-button {
             position: absolute;
-            top: 21px;
-            left: 26px;
+            z-index: 10;
+            right: 0;
+            top: 0;
             display: block;
-            width: 1px;
-            height: 11px;
-            background: #323232;
-            z-index: 99;
+            border-left: 1px solid #eee;
+            height: 52px;
+            width: 52px;
+            cursor: pointer;
+    }
+
+                .navigation #submenu-button::after {
+                        content: '';
+                    position: absolute;
+                    top: 21px;
+                    left: 26px;
+                    display: block;
+                    width: 1px;
+                    height: 11px;
+                    background: #323232;
+                    z-index: 99;
         }
 
-        .navigation #submenu-button::before {
-            content: '';
-            position: absolute;
-            left: 21px;
-            top: 26px;
-            display: block;
-            width: 11px;
-            height: 1px;
-            background: #323232;
-            z-index: 99;
+                .navigation #submenu-button::before {
+                    content: '';
+                    position: absolute;
+                    left: 21px;
+                    top: 26px;
+                    display: block;
+                    width: 11px;
+                    height: 1px;
+                    background: #323232;
+                    z-index: 99;
         }
 
         .navigation #submenu-button.submenu-opened:after {
