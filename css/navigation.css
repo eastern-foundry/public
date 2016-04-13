@@ -354,8 +354,8 @@
             margin: 0;
         }
 
-            .navigation > ul > li.nav-has-sub > a::after,
-            .navigation ul ul li.nav-has-sub > a::after {
+            .navigation > ul > li.nav-has-sub:hover > a::after,
+            .navigation ul ul li.nav-has-sub:hover > a::after {
                 display: none;
             }
 
@@ -399,7 +399,7 @@
             border-bottom: 2px solid #000000;
         }
 
-    .navigation .submenu-button {
+    .navigation #submenu-button {
         position: absolute;
         z-index: 10;
         right: 0;
@@ -411,7 +411,7 @@
         cursor: pointer;
     }
 
-        .navigation .submenu-button::after {
+        .navigation #submenu-button::after {
             content: '';
             position: absolute;
             top: 21px;
@@ -423,7 +423,7 @@
             z-index: 99;
         }
 
-        .navigation .submenu-button::before {
+        .navigation #submenu-button::before {
             content: '';
             position: absolute;
             left: 21px;
@@ -435,7 +435,7 @@
             z-index: 99;
         }
 
-        .navigation .submenu-button.submenu-opened:after {
+        .navigation #submenu-button.submenu-opened:after {
             display: none;
         }
 }
