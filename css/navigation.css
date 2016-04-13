@@ -112,7 +112,7 @@
     color: #ffc708;
 }
  .navigation > ul > li.nav-has-sub > a {
-  padding-right: 25px;
+  padding-right: 0px;
 }
  .navigation > ul > li.nav-has-sub > a::after {
   position: absolute;
