@@ -112,7 +112,7 @@
     color: #ffc708;
 }
  .navigation > ul > li.nav-has-sub > a {
-  padding-right: 0px;
+  padding-right: 14px;
 }
  .navigation > ul > li.nav-has-sub > a::after {
   position: absolute;
@@ -120,8 +120,8 @@
   right: 10px;
   width: 4px;
   height: 4px;
-  border-bottom: 1px solid #323232;
-  border-right: 1px solid #323232;
+  border-bottom: 1px;
+  border-right: 1px;
   content: "";
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
